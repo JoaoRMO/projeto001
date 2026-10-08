@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216mm" height="99mm" viewBox="0 0 216 99" role="img" aria-label="Faixa de abertura de capítulo com curvas de nível">
+<title>Faixa de abertura de capítulo com curvas de nível</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#73BFE8"/></linearGradient></defs>
+<rect width="216" height="99" fill="url(#g)"/>
+<g transform="translate(3 3)" fill="none" stroke="#002D4D" stroke-width="0.14">
+<path d="M-3 80H70V40H130V60H213"/>
+<path d="M-3 70H60V30H140V50H213" stroke-opacity="0.35"/>
+<path d="M-3 60H50V20H150V40H213" stroke-opacity="0.18"/>
+<path d="M130 40V12H150" stroke-width="0.09"/></g>
+<circle cx="133" cy="43" r="1" fill="#008BC9"/>
+<text x="155" y="16" font-family="Montserrat,Gotham,Arial,sans-serif" font-size="2.3" letter-spacing="0.3" fill="#002D4D">PONTO DE CONTROLE A-04</text>
+</svg>

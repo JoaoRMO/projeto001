@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150mm" height="150mm" viewBox="0 0 150 150" role="img" aria-label="Malha técnica em branco, para fundos azuis">
+<title>Malha técnica em branco, para fundos azuis</title>
+<g fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="0.09"><circle cx="75" cy="75" r="30"/><circle cx="75" cy="75" r="45"/><circle cx="75" cy="75" r="60"/><circle cx="75" cy="75" r="75"/><line x1="0" y1="75" x2="150" y2="75"/><line x1="75" y1="0" x2="75" y2="150"/></g>
+<path d="M75 15A60 60 0 0 1 135 75" fill="none" stroke="#FFFFFF" stroke-width="0.42"/>
+</svg>
