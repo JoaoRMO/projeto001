@@ -26,8 +26,19 @@ function tentar(obj, props, log) {
 
 function obterOuCriar(col, nome, props) {
     var item = col.itemByName(nome);
-    if (!item.isValid) { item = col.add(props || {}); item.name = nome; }
+    if (!item.isValid) { item = col.add(props || {}); try { item.name = nome; } catch (e) {} }
     return item;
+}
+
+// Matizes têm nome somente leitura: procura um existente (mesma cor base e tom) ou cria.
+function obterTint(doc, base, valor) {
+    for (var i = 0; i < doc.tints.length; i++) {
+        var t = doc.tints[i];
+        try {
+            if (t.baseColor.id === base.id && t.tintValue === valor) return t;
+        } catch (e) {}
+    }
+    return doc.tints.add({ baseColor: base, tintValue: valor });
 }
 
 function main(doc) {
@@ -40,12 +51,10 @@ function main(doc) {
     var cab = obterOuCriar(doc.colors, "Cabeçalho", null);
     tentar(cab, { model: ColorModel.PROCESS, space: ColorSpace.CMYK, colorValue: COR_CABECALHO }, log);
 
-    var azul15 = obterOuCriar(doc.tints, "Azul " + TOM_TRACADO + "%", { baseColor: azul, tintValue: TOM_TRACADO });
-    tentar(azul15, { baseColor: azul, tintValue: TOM_TRACADO }, log);
+    var azul15 = obterTint(doc, azul, TOM_TRACADO);
 
     var preto = doc.swatches.itemByName("Black");
-    var cinza15 = obterOuCriar(doc.tints, "Cinza " + TOM_CINZA + "%", { baseColor: preto, tintValue: TOM_CINZA });
-    tentar(cinza15, { baseColor: preto, tintValue: TOM_CINZA }, log);
+    var cinza15 = obterTint(doc, preto, TOM_CINZA);
 
     var papel = doc.swatches.itemByName("Paper");
     var nenhum = doc.swatches.itemByName("None");
