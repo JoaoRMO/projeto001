@@ -102,7 +102,7 @@ function main(doc) {
             p.endRowFillCount = 1;
             p.skipFirstAlternatingFillRows = 1;
         } else {
-            p.alternatingFills = AlternatingFillsTypes.NO_ALTERNATING_FILLS;
+            p.alternatingFills = AlternatingFillsTypes.NO_ALTERNATION;
         }
         tentar(ts, p, log);
         return ts;
