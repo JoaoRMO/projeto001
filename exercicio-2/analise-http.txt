@@ -1,0 +1,127 @@
+==============================================================
+PRÁTICA AVALIADA 1 - EXERCÍCIO 2
+Análise e Implementação do Protocolo HTTP
+Projeto: Dighanger.com (cadastro e uso de looks)
+==============================================================
+
+
+--------------------------------------------------------------
+PARTE A - ANÁLISE DE REQUISIÇÃO
+--------------------------------------------------------------
+
+Requisição analisada:
+
+  POST /api/v1/usuarios HTTP/1.1
+  Host: sistema.exemplo.com
+  Content-Type: application/json
+  Authorization: Bearer eyJhbGciOi...
+
+  {"nome": "Maria Silva", "email": "maria@exemplo.com"}
+
+
+1) Linha de requisição (request line): POST /api/v1/usuarios HTTP/1.1
+   - POST ........ Método HTTP. Indica a ação: criar um novo recurso.
+   - /api/v1/usuarios . Caminho (path) do recurso. "api" indica que é uma API,
+                   "v1" é a versão da API (permite evoluir sem quebrar
+                   clientes antigos) e "usuarios" é a coleção de recursos
+                   (substantivo, no plural, padrão REST).
+   - HTTP/1.1 .... Versão do protocolo HTTP utilizada.
+
+2) Cabeçalhos (headers):
+   - Host: sistema.exemplo.com
+       Domínio do servidor de destino. Obrigatório no HTTP/1.1, pois um
+       mesmo IP pode hospedar vários sites (hospedagem virtual).
+   - Content-Type: application/json
+       Informa o formato do corpo enviado: JSON. O servidor usa isso para
+       saber como interpretar (fazer o parse) do corpo.
+   - Authorization: Bearer eyJhbGciOi...
+       Credencial de autenticação. "Bearer" é o esquema (portador do token)
+       e "eyJhbGciOi..." é um token, normalmente um JWT (cabeçalho.payload.
+       assinatura em Base64). Prova a identidade de quem faz a requisição.
+
+3) Linha em branco:
+   Separa os cabeçalhos do corpo da mensagem (exigido pelo protocolo).
+
+4) Corpo (body): {"nome": "Maria Silva", "email": "maria@exemplo.com"}
+   Dados em JSON do usuário a ser criado, com os campos "nome" e "email".
+
+Resumo: o cliente, autenticado por token, pede ao servidor
+sistema.exemplo.com que CRIE um novo usuário (Maria Silva) na coleção
+/api/v1/usuarios, enviando os dados em JSON.
+Resposta esperada: 201 Created (com o usuário criado e, de preferência,
+o cabeçalho Location apontando para o novo recurso).
+
+
+--------------------------------------------------------------
+PARTE B - CÓDIGOS DE STATUS
+--------------------------------------------------------------
+
+  Situação                          Código  Justificativa
+  --------------------------------  ------  ----------------------------------
+  Usuário criado com sucesso        201     Created: o recurso foi criado
+                                            (200 OK seria genérico demais).
+
+  Recurso não encontrado            404     Not Found: o recurso/URL pedido
+                                            não existe (ex.: GET /looks/99).
+
+  Falha na autenticação             401     Unauthorized: credenciais ausentes
+                                            ou inválidas (token expirado).
+                                            (403 Forbidden é para usuário
+                                            autenticado, mas sem permissão.)
+
+  Dados inválidos                   400     Bad Request: requisição malformada
+                                            ou dados inválidos.
+                                            (Alternativa: 422 Unprocessable
+                                            Entity, usada pelo FastAPI quando
+                                            a validação Pydantic falha.)
+
+  Erro interno do servidor          500     Internal Server Error: falha
+                                            inesperada no servidor (ex.: banco
+                                            de dados fora do ar).
+
+Famílias de códigos: 2xx sucesso | 3xx redirecionamento |
+                     4xx erro do cliente | 5xx erro do servidor.
+
+
+--------------------------------------------------------------
+PARTE C - MÉTODOS HTTP (exemplos com os looks do Dighanger.com)
+--------------------------------------------------------------
+
+GET - LER/CONSULTAR um recurso. Seguro (não altera dados) e idempotente.
+      Use quando: apenas buscar informação.
+      Exemplo: listar os looks cadastrados
+        GET /looks
+        GET /looks/3        -> retorna o Look 3 (camiseta branca, bermuda
+                               jeans, tênis preto, usado 12 vezes)
+      Resposta: 200 OK (ou 404 se o look não existir).
+
+POST - CRIAR um novo recurso (ou executar uma ação). NÃO é idempotente:
+       repetir cria duplicatas.
+       Use quando: cadastrar algo novo; o servidor define o id.
+       Exemplo: cadastrar um novo look
+        POST /looks
+        {"nome": "Look 8", "camiseta": "verde", "bottom": "calça preta",
+         "tenis": "branco"}
+       Exemplo 2: registrar um uso do look
+        POST /looks/3/usos   {"data": "2026-11-07"}
+       Resposta: 201 Created.
+
+PUT - SUBSTITUIR/ATUALIZAR um recurso por completo. Idempotente: enviar
+      a mesma requisição várias vezes dá o mesmo resultado.
+      Use quando: editar o recurso inteiro, informando todos os campos.
+      Exemplo: trocar o tênis do Look 3
+        PUT /looks/3
+        {"nome": "Look 3", "camiseta": "branca", "bottom": "bermuda jeans",
+         "tenis": "azul"}
+      Resposta: 200 OK (ou 404 se não existir).
+      (PATCH é usado para alterar só parte dos campos.)
+
+DELETE - REMOVER um recurso. Idempotente: apagar duas vezes deixa o
+         sistema no mesmo estado final.
+         Use quando: excluir um registro.
+         Exemplo: excluir o Look 7 do guarda-roupa
+           DELETE /looks/7
+         Resposta: 204 No Content (ou 404 se já não existir).
+
+Tabela-resumo (CRUD):
+  Create -> POST   | Read -> GET | Update -> PUT/PATCH | Delete -> DELETE
