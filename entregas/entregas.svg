@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17cm" height="11.3333cm" viewBox="0 0 1536 1024" font-family="Inter, Arial, sans-serif">
+<defs><clipPath id="c"><rect x="18" y="12" width="1500" height="998" rx="38"/></clipPath></defs>
+<rect width="1536" height="1024" fill="#fff"/><g clip-path="url(#c)">
+<rect x="18" y="12" width="1500" height="70" fill="#0B3566"/>
+<text x="395" y="60" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">ENTREGA</text>
+<text x="1104" y="60" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">UNIDADE DE MEDIÇÃO</text>
+<rect x="18" y="82.0" width="112" height="185.6" fill="#0B5FC4"/>
+<text x="74" y="188.8" font-size="42" font-weight="800" fill="#fff" text-anchor="middle">D1</text>
+<line x1="130" x2="1518" y1="82.0" y2="82.0" stroke="#CFD4DA" stroke-width="2"/>
+<g transform="translate(268,174.8) scale(.84)"><path d="M-62 -66 H62 V62 H-62 Z M-62 -66 Q-88 -66 -88 -40 V50 Q-88 66 -72 66 H-30" stroke="#0B5FC4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M-52 -52 H52 M-26 8 V-30 H12 V8 M-26 8 H12 M-16 -20 h8 M-16 -8 h8 M0 -20 h8 M0 -8 h8 M-36 28 H20" stroke="#0B5FC4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><path d="M20 52 L48 6 L66 16 L38 62 L14 68 Z" fill="#fff" stroke="#0B5FC4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
+<text x="415" y="165.8" font-size="38" font-weight="700" fill="#0B2F63">Projeto</text>
+<text x="415" y="209.8" font-size="38" font-weight="700" fill="#0B2F63">Executivo</text>
+<circle cx="834" cy="174.8" r="85" fill="#DCEAFC"/><g transform="translate(834,174.8)"><path d="M-36 -52 H14 L40 -26 V50 H-36 Z M14 -52 V-26 H40" fill="#fff" stroke="#0B5FC4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M-22 -20 H4 M-22 -4 H18 M-22 12 H6" stroke="#0B5FC4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><circle cx="34" cy="34" r="24" fill="#1E9E3A" stroke="#fff" stroke-width="4"/><path d="M23.2 34.48 L31.6 43.120000000000005 L46.0 25.6" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
+<text x="955" y="136.3" font-size="33" font-weight="700" fill="#0B5FC4">Documentos aprovados</text>
+<text x="955" y="170.3" font-size="25" font-weight="400" fill="#222">Quantidade de documentos do projeto</text>
+<text x="955" y="201.3" font-size="25" font-weight="400" fill="#222">com todas as análises e aprovações pelos</text>
+<text x="955" y="232.3" font-size="25" font-weight="400" fill="#222">órgãos respectivos.</text>
+<rect x="18" y="267.6" width="112" height="185.6" fill="#1E8A2E"/>
+<text x="74" y="374.4" font-size="42" font-weight="800" fill="#fff" text-anchor="middle">D2</text>
+<line x1="130" x2="1518" y1="267.6" y2="267.6" stroke="#CFD4DA" stroke-width="2"/>
+<g transform="translate(268,360.4) scale(.84)"><path d="M-92 -52 H-72 L-40 40 H62" stroke="#1E8A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M-20 -40 L18 -58 L58 -40 V0 L18 18 L-20 0 Z M-20 -40 L18 -22 L58 -40 M18 -22 V18" stroke="#1E8A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="-48" cy="60" r="14" stroke="#1E8A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="44" cy="58" r="12" stroke="#1E8A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
+<text x="415" y="373.4" font-size="38" font-weight="700" fill="#1E8A2E">Aquisições</text>
+<circle cx="834" cy="360.40000000000003" r="85" fill="#DFF3E1"/><g transform="translate(834,360.40000000000003)"><path d="M-62 -34 H8 V30 H-62 Z M8 -22 H34 L50 0 V30 H8" stroke="#1E8A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="-34" cy="32" r="12" fill="#fff" stroke="#1E8A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="28" cy="32" r="12" fill="#fff" stroke="#1E8A2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
+<text x="955" y="321.9" font-size="33" font-weight="700" fill="#1E8A2E">Equipamentos entregues</text>
+<text x="955" y="355.9" font-size="25" font-weight="400" fill="#222">Quantidade de equipamentos e materiais</text>
+<text x="955" y="386.9" font-size="25" font-weight="400" fill="#222">que foram entregues e recebidos no</text>
+<text x="955" y="417.9" font-size="25" font-weight="400" fill="#222">projeto.</text>
+<rect x="18" y="453.2" width="112" height="185.6" fill="#FF8A00"/>
+<text x="74" y="560.0" font-size="42" font-weight="800" fill="#fff" text-anchor="middle">D3</text>
+<line x1="130" x2="1518" y1="453.2" y2="453.2" stroke="#CFD4DA" stroke-width="2"/>
+<g transform="translate(268,546.0) scale(.84)"><path d="M-50 -66 V70 M-22 -66 V70 M-50 -66 L-22 -32 L-50 2 L-22 36 L-50 70 M-22 -66 L-50 -32 M-70 70 H0" stroke="#FF8A00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><path d="M-92 -66 H72 M-36 -66 V-86 M-36 -86 L-86 -66 M-36 -86 L60 -66 M56 -66 V-38 M56 -38 h8" stroke="#FF8A00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><path d="M30 70 V0 H88 V70 M24 70 H94 M42 14 h8 M58 14 h8 M74 14 h8 M42 30 h8 M58 30 h8 M74 30 h8 M54 70 V50 H68 V70" stroke="#FF8A00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/></g>
+<text x="415" y="559.0" font-size="38" font-weight="700" fill="#FF8A00">Construção</text>
+<circle cx="834" cy="546.0" r="85" fill="#FFE8CC"/><g transform="translate(834,546.0)"><g fill="#FF8A00"><rect x="-62" y="-30" width="30" height="16" rx="2"/><rect x="-62" y="-10" width="22" height="16" rx="2"/><rect x="-36" y="-10" width="22" height="16" rx="2"/><rect x="-62" y="10" width="30" height="16" rx="2"/><rect x="-28" y="10" width="30" height="16" rx="2"/><rect x="6" y="10" width="30" height="16" rx="2"/><rect x="-40" y="30" width="30" height="16" rx="2"/><rect x="-6" y="30" width="30" height="16" rx="2"/></g><path d="M-6 8 L28 -40 L50 -24 L16 18 Z" fill="#fff" stroke="#FF8A00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><path d="M28 -40 L40 -56 L58 -42 L50 -24" fill="#FF8A00" stroke="#FF8A00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/></g>
+<text x="955" y="507.5" font-size="33" font-weight="700" fill="#FF8A00">m² construídos</text>
+<text x="955" y="541.5" font-size="25" font-weight="400" fill="#222">Quantidade de metros quadrados de</text>
+<text x="955" y="572.5" font-size="25" font-weight="400" fill="#222">área construída, acumulada e aceita</text>
+<text x="955" y="603.5" font-size="25" font-weight="400" fill="#222">pela fiscalização.</text>
+<rect x="18" y="638.8" width="112" height="185.6" fill="#5B2EA6"/>
+<text x="74" y="745.6" font-size="42" font-weight="800" fill="#fff" text-anchor="middle">D4</text>
+<line x1="130" x2="1518" y1="638.8" y2="638.8" stroke="#CFD4DA" stroke-width="2"/>
+<g transform="translate(268,731.6) scale(.84)"><path d="M-76 -44 H10 Q44 -44 44 -14 Q44 16 10 16 H-30 Q-64 16 -64 40 Q-64 62 -30 62 H64" stroke="#5B2EA6" stroke-width="30" fill="none" stroke-linejoin="round"/><path d="M-76 -44 H10 Q44 -44 44 -14 Q44 16 10 16 H-30 Q-64 16 -64 40 Q-64 62 -30 62 H64" stroke="#fff" stroke-width="18" fill="none" stroke-linejoin="round"/><path d="M-86 -62 V-26 M-62 -62 V-26 M68 46 V78 M92 46 V78" stroke="#5B2EA6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M-30 -62 V-26 M18 -62 V-26" stroke="#5B2EA6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/></g>
+<text x="415" y="744.6" font-size="38" font-weight="700" fill="#5B2EA6">Instalações</text>
+<circle cx="834" cy="731.5999999999999" r="85" fill="#E6E0F5"/><g transform="translate(834,731.5999999999999)"><path d="M-10 -52 H20 Q34 -52 34 -38 V-26 M-10 -52 V-40 M-18 -40 H6 M34 -26 H14 M34 -26 H44 M14 -26 V10 Q14 26 -2 26 H-36 M-62 4 L-44 -4 V36 L-62 28 Z" stroke="#5B2EA6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5.5"/><path d="M-62 4 Q-72 16 -62 28 M-36 12 V36" stroke="#5B2EA6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5.5"/></g>
+<text x="955" y="675.1" font-size="33" font-weight="700" fill="#5B2EA6">Metros de tubulação</text>
+<text x="955" y="711.1" font-size="33" font-weight="700" fill="#5B2EA6">instalados</text>
+<text x="955" y="745.1" font-size="25" font-weight="400" fill="#222">Quantidade de metros lineares de</text>
+<text x="955" y="776.1" font-size="25" font-weight="400" fill="#222">tubulação instalada e verificada</text>
+<text x="955" y="807.1" font-size="25" font-weight="400" fill="#222">conforme projeto.</text>
+<rect x="18" y="824.4" width="112" height="185.6" fill="#0E8A94"/>
+<text x="74" y="931.2" font-size="42" font-weight="800" fill="#fff" text-anchor="middle">D5</text>
+<line x1="130" x2="1518" y1="824.4" y2="824.4" stroke="#CFD4DA" stroke-width="2"/>
+<g transform="translate(268,917.2) scale(.84)"><path d="M-90 -50 H-50 M-30 -50 H-10 M-90 -50 V70 H0" stroke="#0E8A94" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M-70 -70 H-30 V-50 H-70 Z M-90 -50 H-10 V6" stroke="#0E8A94" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><path d="M-76 -24 l8 8 14 -16 M-76 8 l8 8 14 -16 M-76 40 l8 8 14 -16 M-40 -22 H-14 M-40 10 H-14 M-40 42 H-14" stroke="#0E8A94" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><path d="M30 -10 H78 M42 -10 V26 L12 62 Q8 70 18 70 H90 Q100 70 96 62 L66 26 V-10 M26 40 H84" stroke="#0E8A94" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><circle cx="52" cy="52" r="4" fill="#0E8A94"/><circle cx="72" cy="56" r="3" fill="#0E8A94"/></g>
+<text x="415" y="930.2" font-size="38" font-weight="700" fill="#0E8A94">Testes</text>
+<circle cx="834" cy="917.1999999999999" r="85" fill="#D5F2F1"/><g transform="translate(834,917.1999999999999)"><path d="M-44 -34 H-20 M0 -34 H24 M-44 -34 V50 H8 M24 -34 V-8 M-26 -46 H-2 V-34 H-26 Z" fill="#fff" stroke="#0E8A94" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5.5"/><path d="M-34 -10 l6 6 10 -12 M-34 10 l6 6 10 -12 M-34 30 l6 6 10 -12 M-10 -8 H14 M-10 12 H14 M-10 32 H-2" stroke="#0E8A94" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="5"/><circle cx="34" cy="34" r="24" fill="#0E8A94" stroke="#fff" stroke-width="4"/><path d="M23.2 34.48 L31.6 43.120000000000005 L46.0 25.6" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
+<text x="955" y="860.7" font-size="33" font-weight="700" fill="#0E8A94">Quantidade de testes</text>
+<text x="955" y="896.7" font-size="33" font-weight="700" fill="#0E8A94">realizados</text>
+<text x="955" y="930.7" font-size="25" font-weight="400" fill="#222">Quantidade de testes executados e</text>
+<text x="955" y="961.7" font-size="25" font-weight="400" fill="#222">aprovados conforme plano de testes</text>
+<text x="955" y="992.7" font-size="25" font-weight="400" fill="#222">do projeto.</text>
+<line x1="702" x2="702" y1="12" y2="1010" stroke="#CFD4DA" stroke-width="2"/></g>
+<rect x="19" y="13" width="1498" height="996" rx="37" fill="none" stroke="#C5CBD3" stroke-width="3"/></svg>
