@@ -1,0 +1,211 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Programacao FGV//PT-BR//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:II Seminário de Gestão de Projetos Complexos
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VTIMEZONE
+TZID:America/Sao_Paulo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+TZNAME:-03
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:seminario-gpc-2026-01@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T080000
+DTEND;TZID=America/Sao_Paulo:20261125T090000
+SUMMARY:Credenciamento + Welcome Coffee
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:II Seminário de Gestão de Projetos Complexos - Conectando a 
+ academia e a prática para enfrentar os desafios da gestão de projetos c
+ omplexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-02@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T090000
+DTEND;TZID=America/Sao_Paulo:20261125T100000
+SUMMARY:Abertura Oficial do Evento
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:Com Dr. Carlos Ivan Simonsen Leal (Presidente da FGV)\n\nII Se
+ minário de Gestão de Projetos Complexos - Conectando a academia e a pr
+ ática para enfrentar os desafios da gestão de projetos complexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-03@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T100000
+DTEND;TZID=America/Sao_Paulo:20261125T110000
+SUMMARY:Metodologia de Gestão de Empreendimentos de Expansão
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:Com Luiz Briani (Gerente de Estratégia e PMO Corporativo do M
+ etrô de São Paulo)\n\nII Seminário de Gestão de Projetos Complexos - 
+ Conectando a academia e a prática para enfrentar os desafios da gestão 
+ de projetos complexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-04@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T110000
+DTEND;TZID=America/Sao_Paulo:20261125T113000
+SUMMARY:Coffee-break
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:II Seminário de Gestão de Projetos Complexos - Conectando a 
+ academia e a prática para enfrentar os desafios da gestão de projetos c
+ omplexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-05@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T113000
+DTEND;TZID=America/Sao_Paulo:20261125T123000
+SUMMARY:Da Complexidade à Entrega: Como Transformar Riscos e Incertezas e
+ m Resultados
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:Com Dimitrios Chalela Magalhães (Gerente-Executivo de Projeto
+ s de Desenvolvimento da Produção da Petrobras)\n\nII Seminário de Gest
+ ão de Projetos Complexos - Conectando a academia e a prática para enfre
+ ntar os desafios da gestão de projetos complexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-06@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T123000
+DTEND;TZID=America/Sao_Paulo:20261125T140000
+SUMMARY:Almoço
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:II Seminário de Gestão de Projetos Complexos - Conectando a 
+ academia e a prática para enfrentar os desafios da gestão de projetos c
+ omplexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-07@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T140000
+DTEND;TZID=America/Sao_Paulo:20261125T150000
+SUMMARY:Excelência Não se Improvisa: O Motor Invisível dos Projetos Com
+ plexos
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:Com Sidnei Bispo (Diretor de Gestão Administrativa da Eletron
+ uclear)\n\nII Seminário de Gestão de Projetos Complexos - Conectando a 
+ academia e a prática para enfrentar os desafios da gestão de projetos c
+ omplexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-08@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T150000
+DTEND;TZID=America/Sao_Paulo:20261125T160000
+SUMMARY:Aprender Rápido\, Mudar a Tempo: Capacidades Dinâmicas em Organi
+ zações Baseadas em Projetos
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:Com Marly Monteiro de Carvalho (Professora Titular da Escola P
+ olitécnica da USP - Poli-USP)\n\nII Seminário de Gestão de Projetos Co
+ mplexos - Conectando a academia e a prática para enfrentar os desafios d
+ a gestão de projetos complexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-09@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T160000
+DTEND;TZID=America/Sao_Paulo:20261125T163000
+SUMMARY:Coffee-break
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:II Seminário de Gestão de Projetos Complexos - Conectando a 
+ academia e a prática para enfrentar os desafios da gestão de projetos c
+ omplexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-10@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T163000
+DTEND;TZID=America/Sao_Paulo:20261125T170000
+SUMMARY:Projeto do Ano
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:II Seminário de Gestão de Projetos Complexos - Conectando a 
+ academia e a prática para enfrentar os desafios da gestão de projetos c
+ omplexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:seminario-gpc-2026-11@fgv-evento
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261125T170000
+DTEND;TZID=America/Sao_Paulo:20261125T173000
+SUMMARY:Encerramento
+LOCATION:Auditório FGV 9 de Julho - Rua Itapeva\, 432\, Térreo (entrada)
+ \, Bela Vista\, São Paulo - SP
+DESCRIPTION:Com Dr. Carlos Ivan Simonsen Leal (Presidente da FGV)\n\nII Se
+ minário de Gestão de Projetos Complexos - Conectando a academia e a pr
+ ática para enfrentar os desafios da gestão de projetos complexos.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Em 10 minutos
+END:VALARM
+END:VEVENT
+END:VCALENDAR
